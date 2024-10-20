@@ -1,10 +1,11 @@
-# Machine Learning Study
-### This folder contains the machine learning codes I implemented for study purpose
+# Machine Learning Study Folder
 
-#### 1. Linear Regression Implementation
+#### This folder contains the machine learning codes I implemented for study purpose
+
+### 1. Linear Regression Implementation
 Implement the Machine Learning Linear regression model using numpy.
 
-**Key components include:**
+**Key functions include:**
 
 - Cost Function
 
