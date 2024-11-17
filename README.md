@@ -19,3 +19,21 @@ Implement the Machine Learning Linear regression model using numpy.
 
 - Predict
 
+### 2. Logistic Regression Implementation
+Implement the Machine Learning Logistic regression model using numpy.
+
+**Key functions include:**
+
+- Sigmoid Function
+
+- Cost Function
+
+- Gradient of the Cost Function
+
+- Convergence Check
+
+- Training
+
+- Predict Probability
+
+- Predict
