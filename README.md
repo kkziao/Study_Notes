@@ -1,39 +1,32 @@
-# Machine Learning Study Folder
+# Machine Learning Study Notes
+##### I summarized the machine learning key knowledge points for better mastering these concepts.
 
-#### This folder contains the machine learning codes I implemented for study purpose
+--------------
 
-### 1. Linear Regression Implementation
-Implement the Machine Learning Linear regression model using numpy.
+## Basic Concepts
+### Loss Function:
+It is a function used to measure the error between our prediction and our goal.
 
-**Key functions include:**
+Some Loss functions: Mean Squared Error (MSE), Mean Absolute Error (MSE), 
 
-- Cost Function
+### Gradient Descent:
+It is a technique used to minimize the loss function. Iteratively, we will change the model parameters based on the gradient descent results.
 
-- Gradient Calculation
+Prerequisit for Loss function:
+1. Deferetiable 
+2. Convex
 
-- Convergence Check
+--------------
 
-- Training with Gradient Descent
+## 1. Supervised Learning
+### 1.1 Classificcation
+### 1.2 Regression
 
-- Training with Stochastic Gradient Descent (SGD)
+--------------
 
-- Predict
+## 2. Unsupervised Learning
+### 2.1 Clustering
 
-### 2. Logistic Regression Implementation
-Implement the Machine Learning Logistic regression model using numpy.
+--------------
 
-**Key functions include:**
-
-- Sigmoid Function
-
-- Cost Function
-
-- Gradient of the Cost Function
-
-- Convergence Check
-
-- Training
-
-- Predict Probability
-
-- Predict
+## 3. Reinforcement Learning
