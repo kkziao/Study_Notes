@@ -9,6 +9,11 @@ It is a function used to measure the error between our prediction and our goal.
 
 Some Loss functions: Mean Squared Error (MSE), Mean Absolute Error (MSE), 
 
+### Regularization
+L1 Regularization
+
+L2 Regularization
+
 ### Gradient Descent:
 It is a technique used to minimize the loss function. Iteratively, we will change the model parameters based on the gradient descent results.
 
@@ -30,30 +35,72 @@ way the function can increase. (So, the negative gradient will be the fastest wa
 0. Before we start iteration, we already have the Loss function calculated (Using the entire matrix). 
 1. Choose a starting point (usually random parameters initialization).
 2. Calculate gradient at this point (find the direction of change of the parameters that can help the loss function decrease fastest).
-3. Make an update on the parameter: Learning Rate * Gradient.
+3. Make an update on the parameter: b_new = b - Learning Rate * Gradient.
 4. Repeat step 2 and 3 until the gradient doesn't change much (meet the threshold).
 
 After the iteration, we can find the optimal parameters for the loss function, 
 which can minimize the loss function. Make the model achieve the best performance.
 
-### Regularization
+Accelerated Gradient Descent
+Adaptive Learning Rate (Adam)
+
+Vanishing Gradient Problem
+
 
 ### Back Propagation
 
+--------------
 
-
+## 1. Feature Engineering
+### 1.1 Standarization
+### 1.2 Encoding
+### 1.3 Principle Component Analysis
 
 --------------
 
-## 1. Supervised Learning
-### 1.1 Classificcation
-### 1.2 Regression
+
+## 2.1 Supervised Learning
+
+### 2.1.1 Classification
+### - Logistic Regression
+### - Decision Tree
+Reduced-Error Pruning
+Ensemble Methods: 
+    - Random Forest (Bagging)
+    - AdaBoost (Boosting)
+
+
+### 2.1.2 Regression
+### - Linear Regression
+
+### 2.1.3 Classification (Neural Network)
+Dropout 
+### - Multi Layer Perceptron (MLP)
+### - Convolutional Neural Network (CNN)
+### - Residual Neural Network (RNN)
+
+## 2.2 Unsupervised Learning
+
+### 2.2.1 Clustering
+### - K Nearest Neighbors
+
+
+## 2.3 Reinforcement Learning
+### - Q* Learning
+### - V Learning
+
+## 2.4 Natural Language Processing (NLP)
+Bag of Words Feature Map
+word Embedding 
+
+## 2.5 Recommender System
+Collaborative Filtering
+Nearest-Neighbor Collaborative Filtering
 
 --------------
 
-## 2. Unsupervised Learning
-### 2.1 Clustering
+## 3. Model Evaluation
 
---------------
+### Confusion Matrix
 
-## 3. Reinforcement Learning
+### ROC Curve
