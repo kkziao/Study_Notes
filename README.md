@@ -1,6 +1,6 @@
 # Machine Learning Study Notes
 ##### I summarized the machine learning key knowledge points for better mastering these concepts.
-
+##### Creator: Ziao You.
 --------------
 
 ## Basic Concepts
@@ -12,9 +12,36 @@ Some Loss functions: Mean Squared Error (MSE), Mean Absolute Error (MSE),
 ### Gradient Descent:
 It is a technique used to minimize the loss function. Iteratively, we will change the model parameters based on the gradient descent results.
 
-Prerequisit for Loss function:
-1. Deferetiable 
-2. Convex
+**Prerequisit for Loss function:**
+1. Differentiable: Differentiable at all points in its domain.
+2. Convex: Not strictly required, but will help find the global optimal. Otherwise, we could find the local optimals.
+
+
+**Gradient:** 
+It is essentially the partial derivative of the parameter(b0, b1, b2, ...) over
+the loss function.
+
+Intuitively, If the loss function f is a surface, the gradient is the direction that shows the fastest 
+way the function can increase. (So, the negative gradient will be the fastest way to decrease.)
+
+
+**Steps for Gradient Descent:**
+
+0. Before we start iteration, we already have the Loss function calculated (Using the entire matrix). 
+1. Choose a starting point (usually random parameters initialization).
+2. Calculate gradient at this point (find the direction of change of the parameters that can help the loss function decrease fastest).
+3. Make an update on the parameter: Learning Rate * Gradient.
+4. Repeat step 2 and 3 until the gradient doesn't change much (meet the threshold).
+
+After the iteration, we can find the optimal parameters for the loss function, 
+which can minimize the loss function. Make the model achieve the best performance.
+
+### Regularization
+
+### Back Propagation
+
+
+
 
 --------------
 
