@@ -10,12 +10,13 @@ It is a function used to measure the error between our prediction and our goal.
 Some Loss functions: Mean Squared Error (MSE), Mean Absolute Error (MSE), 
 
 ### Regularization
-L1 Regularization
+L1 Regularization (Lasso)
 
-L2 Regularization
+L2 Regularization (Ridge)
 
 ### Gradient Descent:
-It is a technique used to minimize the loss function. Iteratively, we will change the model parameters based on the gradient descent results.
+It is a technique used to find the paramters can minimize the loss function. 
+Iteratively, we will change the model parameters based on the gradient descent results., in order to acheive minimal loss.
 
 **Prerequisit for Loss function:**
 1. Differentiable: Differentiable at all points in its domain.
@@ -41,7 +42,14 @@ way the function can increase. (So, the negative gradient will be the fastest wa
 After the iteration, we can find the optimal parameters for the loss function, 
 which can minimize the loss function. Make the model achieve the best performance.
 
+Batch Gradient Descent
+
+Stochastic Gradient Descent
+
+Mini-Batch Gradient Descent
+
 Accelerated Gradient Descent
+
 Adaptive Learning Rate (Adam)
 
 Vanishing Gradient Problem
@@ -93,6 +101,9 @@ Dropout
 Bag of Words Feature Map
 word Embedding 
 
+## 2.5 Gengerative Models
+Transformer
+Multi-head attention
 ## 2.5 Recommender System
 Collaborative Filtering
 Nearest-Neighbor Collaborative Filtering
