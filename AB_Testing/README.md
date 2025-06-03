@@ -1,6 +1,7 @@
 # AB Testing 
 
+## A/B Testing A/B测试
 
-## 统计检验
+## Statistical Analysis 统计检验
 
 ## 
