@@ -1,0 +1,40 @@
+## 2.1 Supervised Learning
+
+### 2.1.1 Classification
+### - Logistic Regression
+### - Decision Tree
+Reduced-Error Pruning
+Ensemble Methods: 
+    - Random Forest (Bagging)
+    - AdaBoost (Boosting)
+
+
+### 2.1.2 Regression
+### - Linear Regression
+
+### 2.1.3 Classification (Neural Network)
+Dropout 
+### - Multi Layer Perceptron (MLP)
+### - Convolutional Neural Network (CNN)
+### - Residual Neural Network (RNN)
+
+## 2.2 Unsupervised Learning
+
+### 2.2.1 Clustering
+### - K Nearest Neighbors
+
+
+## 2.3 Reinforcement Learning
+### - Q* Learning
+### - V Learning
+
+## 2.4 Natural Language Processing (NLP)
+Bag of Words Feature Map
+word Embedding 
+
+## 2.5 Gengerative Models
+Transformer
+Multi-head attention
+## 2.5 Recommender System
+Collaborative Filtering
+Nearest-Neighbor Collaborative Filtering
